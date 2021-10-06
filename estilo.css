@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'pixel';
+    src: url('./font/Pixeled.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(6, 1, 39);
+    background-position: 50%;
+}
+h1, h2{
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(209, 209, 236), 0 0 0.2em rgb(221, 221, 241);
+    font: 1.5em 'pixel';
+    color: rgb(31, 190, 31);
+}
+canvas{
+    box-shadow: 0 0 1em rgb(76, 79, 97);
+}
